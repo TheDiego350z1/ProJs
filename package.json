@@ -4,7 +4,7 @@
   "description": "Proyecto del Curso Profesional de JavaScrip de Platzi.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TheDiego350z1/ProJs/issues"
   },
-  "homepage": "https://github.com/TheDiego350z1/ProJs#readme"
+  "homepage": "https://github.com/TheDiego350z1/ProJs#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
